@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKSVG'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'dependency SDWebImageSVGKitPlugin not contain CocoaLumberjack.'
   s.description      = <<-DESC
   dependency SDWebImageSVGKitPlugin not contain CocoaLumberjack.
@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'SKSVG/Classes/**/*'
+  s.public_header_files = 'iOS/Classes/**/*.h'
   s.dependency 'SDWebImage/Core', '~> 5.10'
 end
