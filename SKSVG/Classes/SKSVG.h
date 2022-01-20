@@ -8,5 +8,8 @@
 #ifndef SKSVG_h
 #define SKSVG_h
 
+#import "SVGKit.h"
+#import "SDSVGKImage.h"
+#import "SVGKImageView+WebCache.h"
 
 #endif /* SKSVG_h */
