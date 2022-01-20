@@ -1,8 +1,8 @@
 {
   "name": "SKSVG",
   "version": "0.1.0",
-  "summary": "Doric extension library for SVG",
-  "description": "Doric extension library for SVG.",
+  "summary": "dependency SDWebImageSVGKitPlugin not contain CocoaLumberjack.",
+  "description": "dependency SDWebImageSVGKitPlugin not contain CocoaLumberjack.",
   "homepage": "https://github.com/Xcoder1011/SKSVG",
   "license": {
     "type": "MIT",
@@ -19,6 +19,12 @@
     "ios": "9.0"
   },
   "source_files": "SKSVG/Classes/**/*",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "dependencies": {
     "SDWebImage/Core": [
       "~> 5.10"

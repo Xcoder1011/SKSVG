@@ -10,11 +10,7 @@
 #endif
 #endif
 
-#import "SDImageSVGKCoder.h"
-#import "SDSVGKImage.h"
-#import "SDWebImageSVGKitDefine.h"
-#import "SVGKImageView+WebCache.h"
-#import "SDWebImageSVGKitPlugin.h"
+#import "SKSVG.h"
 #import "SVGKImageRep.h"
 #import "AppleSucksDOMImplementation.h"
 #import "Attr.h"
