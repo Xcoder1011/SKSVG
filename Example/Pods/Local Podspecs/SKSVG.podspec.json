@@ -19,12 +19,6 @@
     "ios": "9.0"
   },
   "source_files": "SKSVG/Classes/**/*",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
   "dependencies": {
     "SDWebImage/Core": [
       "~> 5.10"
