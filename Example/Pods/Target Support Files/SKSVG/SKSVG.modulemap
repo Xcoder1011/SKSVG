@@ -1,0 +1,6 @@
+framework module SKSVG {
+  umbrella header "SKSVG-umbrella.h"
+
+  export *
+  module * { export * }
+}

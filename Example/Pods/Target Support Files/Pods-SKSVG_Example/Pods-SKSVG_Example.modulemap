@@ -1,0 +1,6 @@
+framework module Pods_SKSVG_Example {
+  umbrella header "Pods-SKSVG_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

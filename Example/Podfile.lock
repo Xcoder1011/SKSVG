@@ -1,0 +1,23 @@
+PODS:
+  - SDWebImage/Core (5.12.2)
+  - SKSVG (0.1.0):
+    - SDWebImage/Core (~> 5.10)
+
+DEPENDENCIES:
+  - SKSVG (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  SKSVG:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SKSVG: 4dbd6f9a77258406c0ca7787090bd678dcaf2750
+
+PODFILE CHECKSUM: 53b1850006779427b15e2d6590945cad3777e6da
+
+COCOAPODS: 1.11.2

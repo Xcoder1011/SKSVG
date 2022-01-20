@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A7CCEDE79ECACB9A9483EDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3A7CCEDE79ECACB9A9483EDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4B812259E9F873149A3311BC /* Pods-SKSVG_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSVG_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SKSVG_Tests/Pods-SKSVG_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F12EDDD77FD6BFDE677BFC2 /* Pods_SKSVG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSVG_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SKSVG_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKSVG_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +62,9 @@
 		6387866C9274C167B3316A50 /* Pods-SKSVG_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSVG_Tests.release.xcconfig"; path = "Target Support Files/Pods-SKSVG_Tests/Pods-SKSVG_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BF4C120F72AE439BA98D044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9BF4C120F72AE439BA98D044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A45A3E0F83AA1F385ABD2955 /* Pods-SKSVG_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSVG_Example.release.xcconfig"; path = "Target Support Files/Pods-SKSVG_Example/Pods-SKSVG_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B52C81CC87CBD6295A40A9EC /* SKSVG.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKSVG.podspec; path = ../SKSVG.podspec; sourceTree = "<group>"; };
+		B52C81CC87CBD6295A40A9EC /* SKSVG.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKSVG.podspec; path = ../SKSVG.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C40EB7E7201759199D5DDEF9 /* Pods_SKSVG_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKSVG_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E17FF6EEF4BAC78D2380C1 /* Pods-SKSVG_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKSVG_Example.debug.xcconfig"; path = "Target Support Files/Pods-SKSVG_Example/Pods-SKSVG_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				4B812259E9F873149A3311BC /* Pods-SKSVG_Tests.debug.xcconfig */,
 				6387866C9274C167B3316A50 /* Pods-SKSVG_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SKSVG_Example/Pods-SKSVG_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SKSVG/SKSVG.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKSVG.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

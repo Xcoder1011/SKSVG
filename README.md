@@ -1,5 +1,7 @@
 # SKSVG
 
+dependency SDWebImageSVGKitPlugin not contain CocoaLumberjack.
+  
 [![CI Status](https://img.shields.io/travis/Xcoder1011/SKSVG.svg?style=flat)](https://travis-ci.org/Xcoder1011/SKSVG)
 [![Version](https://img.shields.io/cocoapods/v/SKSVG.svg?style=flat)](https://cocoapods.org/pods/SKSVG)
 [![License](https://img.shields.io/cocoapods/l/SKSVG.svg?style=flat)](https://cocoapods.org/pods/SKSVG)
